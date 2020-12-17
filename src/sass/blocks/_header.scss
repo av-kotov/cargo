@@ -1,13 +1,8 @@
 .header {
   height: 45px;
   background-color: #25333c;
-  .container {
-    height: 45px;
-  }
   &__wrapper {
-    display: grid;
-    grid-template-columns: 105px auto;
-    column-gap: 35px;
+    display: flex;
   }
   &__btn {
     margin-top: 7px;
@@ -20,6 +15,7 @@
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
+    padding: 4px;
     &:hover {
       color: $main-color;
       text-decoration: none;
@@ -28,10 +24,12 @@
   }
   &__link {
     display: grid;
-    grid-template-columns: 510px 340px;
-    justify-content: space-between;
+    grid-template-columns: 290px 230px 140px 190px;
+    column-gap: 45px;
     align-items: center;
-    padding-top: 5px;
+    justify-items: end;
+    margin-top: 9px;
+    margin-left: 50px;
     a {
       color: #d3d6d8;
       font-size: 14px;
@@ -43,16 +41,6 @@
         color: $main-color;
         text-decoration: none;
       }
-    }
-  }
-  &__item {
-    display: grid;
-    grid-template-columns: repeat(2, 285px);
-    column-gap: 13px;
-    &:nth-child(2) {
-      display: grid;
-      grid-template-columns: 130px 190px;
-      column-gap: 23px;
     }
   }
 }
