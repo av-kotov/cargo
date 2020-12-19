@@ -158,6 +158,78 @@
 </section>
 <!-- /.perk -->
 
+<section class="calculation">
+    <div class="container">
+        <div class="calculation__title">
+            Калькулятор доставки
+        </div>
+
+        <div class="calculation__wrapper">
+            <div class="calculation__icon">
+                <img src="/icons/calculator.png" alt="calculation">
+            </div>
+            <div class="calculation__shipment">
+                <div class="calculation__shipment-item">
+                    <label for="">Выдача:</label>
+                        <select name="" id="">
+                            <option value="">Хабаровск</option>
+                            <option value="">Владивосток</option>
+                            <option value="">Благовещенск</option>
+                        </select>
+                </div>
+
+                <div class="calculation__shipment-item">
+                    <label for="">Вид товара:</label>
+                        <select name="" id="">
+                            <option value="">продовольственные</option>
+                            <option value="">промышленные</option>
+                            <option value="">другое</option>
+                        </select>
+                </div>
+
+                <div class="calculation__shipment-item">
+                    <label for="">Город отправки:</label>
+                        <select name="" id="">
+                            <option value="">Харбин</option>
+                            <option value="">Хэган</option>
+                            <option value="">Чифын</option>
+                        </select>
+                </div>
+
+                <div class="calculation__shipment-item">
+                    <label for="">Вариант отправки:</label>
+                        <select name="" id="">
+                            <option value="">Авиа</option>
+                            <option value="">Ж\Д транспорт</option>
+                            <option value="">Автовоз</option>
+                        </select>
+                </div>
+            </div>
+            <div class="calculation__dimens">
+                <div class="calculation__dimens-title">
+                    Ввод данных:
+                </div>
+                <div class="calculation__sizes">
+                  <span>Габариты груза (см):</span>
+                    <input type="text" id="size">
+                     <span>X</span>
+                    <input type="text" id="size">
+                     <span>X</span>
+                    <input type="text" id="size">
+                    <span>Вес:</span>
+                    <input type="text" id="mass">
+                   <span> Объем:</span>
+                    <input type="text" id="mass">
+                </div>
+            </div>
+            <button class="btn calculation__btn">рассчитать</button>
+        </div>
+        <!-- /.calculation__wrapper -->
+
+    </div>
+</section>
+<!-- /.calculation -->
+
     <script src="js/script.js"></script>
 </body>
 </html>

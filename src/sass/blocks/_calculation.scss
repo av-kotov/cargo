@@ -1,0 +1,94 @@
+.calculation{
+  position: relative;
+  padding-top: 46px;
+  padding-bottom: 75px;
+  &__icon {
+    display: block;
+    position: absolute;
+    border: 1px solid #e93b3b;
+    border-radius: 100%;
+    padding: 30px;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: 10px 10px #fff, -10px -10px #fff;
+  }
+  &__title {
+    color: #3a3a3a;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+  }
+  &__wrapper {
+    margin-top: 73px;
+    border: 1px solid $main-color;
+  }
+  &__shipment {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 73px;
+  }
+  &__shipment-item {
+    label {
+      color: #3a3a3a;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19px;
+      text-align: left;
+    }
+    select {
+      display: flex;
+      justify-content: space-between;
+      width: 265px;
+      height: 51px;
+      border: 1px solid #c1c4c7;
+      background-color: #ffffff;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: url(../icons/select_arrow.png) right  no-repeat;
+      padding-left: 23px;
+      color: #616467;
+      font-size: 13px;
+      font-weight: 300;
+      text-align: left;
+    }
+  }
+  &__dimens-title {
+    padding-top: 15px;
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__sizes {
+    padding: 13px 192px 49px 189px;
+    span {
+      color: #3a3a3a;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+    }
+    input {
+      height: 51px;
+      border: 1px solid #c1c4c7;
+      background-color: #ffffff;
+    }
+    #size {
+      width: 71px;
+    }
+    #mass {
+      width: 97px;
+    }
+  }
+  &__btn {
+    display: block;
+    position: absolute;
+    top: 420px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 10px 10px #fff, -10px -10px #fff;
+  }
+}
