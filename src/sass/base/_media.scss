@@ -89,7 +89,6 @@
     }
   }
   .calculation {
-
     &__sizes {
      padding: 13px 50px 49px 50px;
      input {
@@ -108,6 +107,17 @@
       top: 480px;
     }
   }
+
+  .delivery {
+    height: 1200px;
+    &__form {
+      flex-wrap: wrap;
+      &-item {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -158,7 +168,16 @@
      align-items: center;
     }
     &__btn {
-      top: 750px;
+      top: 560px;
+    }
+  }
+  .delivery {
+    height: 1720px;
+    &__form {
+      flex-wrap: wrap;
+      &-item {
+        margin-bottom: 20px;
+      }
     }
   }
 }
