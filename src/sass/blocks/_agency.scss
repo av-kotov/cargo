@@ -1,6 +1,6 @@
 .agency {
   height: 342px;
-  background: url(../../img/wall_bg.jpg) center no-repeat;
+  background: url(../img/wall_bg.jpg) center no-repeat;
   &__info {
     padding-top: 57px;
     display: flex;
@@ -27,4 +27,7 @@
     line-height: 27px;
     text-align: center;
   }
+}
+.manager {
+  background: url(../img/city_bg.jpg) center no-repeat;
 }

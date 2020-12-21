@@ -64,12 +64,19 @@
  }
  .reason {
    &__wrapper {
-    display: grid;
-    grid-template-columns: 420px 420px;
-    grid-template-rows: repeat(2, 70px);
-    justify-content: center;
-    align-items: center;
+     grid-template-columns: 420px 420px;
    }
+   .left-main{
+    ::before {
+      content: "";
+      width: 1px;
+      height: 440px;
+      border: 1px dashed #c1c4c7;
+      position: absolute;
+      top: -200%;
+      left: 0%;
+    }
+  }
  }
 }
 
@@ -154,9 +161,19 @@
         display: none;
       }
     }
+    &__ghost {
+      display: none;
+    }
     &__wrapper {
       grid-template-columns: 600px;
-     
+    }
+  }
+  .system {
+    &__form {
+      flex-wrap: wrap;
+      &-item {
+        margin-bottom: 15px;
+      }
     }
   }
 
@@ -220,6 +237,11 @@
       &-item {
         margin-bottom: 20px;
       }
+    }
+  }
+  .reason {
+    &__wrapper {
+      grid-template-columns: 500px;
     }
   }
 }

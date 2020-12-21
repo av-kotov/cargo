@@ -1,0 +1,99 @@
+.system {
+  &__title {
+    color: #3a3a3a;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  &__form {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 28px;
+    &-item {
+      width: 263px;
+      height: 259px;
+      border: 1px solid #c1c4c7;
+      background-color: #ffffff;
+    }
+    &-title {
+      width: 261px;
+      height: 61px;
+      background-color: #25333c;
+      padding-top: 18px;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    &-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      img {
+        width: 65px;
+        height: 69px;
+      }
+      span {
+        font-size: 24px;
+        text-align: center;
+        padding-top: 5px;
+      }
+    }
+    button {
+      margin-top: 22px;
+      width: 166px;
+      height: 43px;
+      border: 1px solid $main-color;
+      background-color: #ffffff;
+      background-color: transparent;
+      padding: 14px 21px 14px 21px;
+      color: $main-color;
+      font-size: 10px;
+      font-weight: 300;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  &__wrapper {
+    position: relative;
+    margin-top: 68px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid $main-color;
+    padding-top: 69px;
+    padding-bottom: 46px;
+    input {
+      width: 265px;
+      height: 51px;
+      border: 1px solid #c1c4c7;
+      background-color: #ffffff;
+      color: #616467;
+      font-size: 13px;
+      font-weight: 300;
+      text-align: left;
+      padding-left: 23px;
+      margin-left: 11px;
+    }
+    &-icon {
+      position: absolute;
+      width: 102px;
+      height: 102px;
+      border: 1px solid #e93b3b;
+      border-radius: 100%;
+      padding: 23px 25px 28px 24px;
+      box-shadow: 10px 10px #fff, -10px -10px #fff;
+      top: -30%;
+      background-color: #fff;
+    }
+    &-btn {
+      position: absolute;
+      top: 84%;
+      box-shadow: 10px 10px #fff, -10px -10px #fff;
+      padding-bottom: 41px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.feedback {
+  padding-top: 60px;
+  &__title {
+    color: #3a3a3a;
+    font-size: 30px;
+    text-align: center;
+  }
+  &__slider {
+    padding-top: 23px;
+    text-align: center;
+  }
+  &__name {
+    padding-top: 17px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &__descr {
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
