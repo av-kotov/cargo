@@ -10,6 +10,7 @@
     img {
       border: 1px solid #fff;
       border-radius: 100%;
+      padding: 25px;
     }
   }
   &__title {
@@ -30,4 +31,12 @@
 }
 .manager {
   background: url(../img/city_bg.jpg) center no-repeat;
+}
+
+.personal_manager {
+  background: url(../img/team/team_bg.jpg) center no-repeat;
+}
+
+.china {
+  background: url(../img/china_bg.jpg) center no-repeat;
 }

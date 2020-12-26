@@ -1,0 +1,24 @@
+.office {
+  height: 1017px;
+  padding-top: 48px;
+  color: #3a3a3a;
+  font-size: 30px;
+  text-align: center;
+  background-color: #f3f3f3;
+  &__wrapper {
+    padding-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    &-img {
+      border: 5px solid #ffffff;
+      background-color: #e93b3b;
+      margin-left: 20px;
+      margin-top: 20px;
+      img {
+        width: 350px;
+        height: 260px;
+      }
+    }
+  }
+
+}
