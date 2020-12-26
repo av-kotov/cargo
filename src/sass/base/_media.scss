@@ -78,6 +78,11 @@
     }
   }
  }
+ .managers {
+   &__wrapper {
+     grid-template-columns: repeat(2, 450px);
+   }
+ }
 }
 
 @media (max-width: 768px) {
@@ -176,6 +181,12 @@
       }
     }
   }
+  .managers {
+    &__wrapper {
+      grid-template-columns: repeat(2, 370px);
+      column-gap: 10px;
+    }
+  }
 
 }
 
@@ -242,6 +253,13 @@
   .reason {
     &__wrapper {
       grid-template-columns: 500px;
+    }
+  }
+  .managers {
+    &__wrapper {
+      grid-template-columns: 350px;
+      grid-auto-rows: minmax(250px,auto);
+      justify-content: end;
     }
   }
 }

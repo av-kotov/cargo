@@ -1,4 +1,5 @@
 .system {
+  padding-bottom: 41px;
   &__title {
     color: #3a3a3a;
     font-size: 30px;
@@ -92,8 +93,8 @@
     &-btn {
       position: absolute;
       top: 84%;
-      box-shadow: 10px 10px #fff, -10px -10px #fff;
-      padding-bottom: 41px;
+      box-shadow: 10px 0px #fff, -10px 0px #fff;
+     
     }
   }
 }
