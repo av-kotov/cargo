@@ -212,6 +212,11 @@
       column-gap: 15px;
     }
   }
+  .news {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+  }
 
 }
 
