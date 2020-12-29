@@ -1,0 +1,37 @@
+.footer {
+  height: 116px;
+  background-color: #25333c;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 290px 300px 210px 245px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &__link {
+    &-item {
+      a {
+        color: #d3d6d8;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        text-decoration: none;
+      }
+      img {
+        width: 17px;
+        height: 17px;
+        margin-right: 9px;
+      }
+    }
+  }
+  &__message {
+    padding-top: 11px;
+    a {
+      width: 36px;
+      height: 36px;
+      border: 1px solid #d3d6d8;
+      margin-right: 6px;
+      padding: 11px;
+    }
+  }
+}
